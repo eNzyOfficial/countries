@@ -12,6 +12,7 @@ class CountriesTableSeeder extends Seeder {
         DB::table('countries')->truncate();
 
         $countries = array(
+            array('name' => 'Unknown', 'code' => 'ZZ'),
             array('name' => 'Afghanistan', 'code' => 'AF'),
             array('name' => 'Åland Islands', 'code' => 'AX'),
             array('name' => 'Albania', 'code' => 'AL'),
